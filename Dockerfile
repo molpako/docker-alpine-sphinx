@@ -11,6 +11,6 @@ RUN cp ipag00303/ipag.ttf /usr/share/fonts/ipa
 RUN fc-cache -fv
 
 RUN pip install --upgrade pip
-RUN pip install sphinx sphinx-rtd-theme
-RUN pip install sphinxcontrib-actdiag sphinxcontrib-blockdiag sphinxcontrib-nwdiag sphinxcontrib-seqdiag
+RUN pip install -U sphinx sphinx-rtd-theme
+RUN pip install -U sphinxcontrib-actdiag sphinxcontrib-blockdiag sphinxcontrib-nwdiag sphinxcontrib-seqdiag
 
